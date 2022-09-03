@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap');
+
 
 * {
     margin: 0;
@@ -5,6 +7,20 @@
     border: none;
 }
 
+body {
+    font-family: merriweather, san-serif;
+    font-weight: 300;
+    color:#3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
 
 #trademark {
     float: left;
