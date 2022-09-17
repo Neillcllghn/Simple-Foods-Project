@@ -53,6 +53,9 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a
 }
 
+.current-menu {
+    border-bottom: 1px solid #3a3a3a
+}
 
 /*-image for person cooking-*/
 #cooking-border {
@@ -60,6 +63,10 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+#image-heading {
+    border: 5px solid black;
 }
 
 #image-heading, #image-heading h2 {
@@ -92,6 +99,7 @@ h1, h2 {
     font-size: 100%;
     font-family: lato, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 4px;
 
     width: 300px;
     height: 100px;
@@ -106,3 +114,40 @@ h1, h2 {
 
     position: absolute;
 }
+
+/*main body text */
+
+.opening-description-section {
+    background: linear-gradient(45deg, grey, transparent);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 2rem auto 1rem auto;
+    border: 5px solid black;
+}
+
+.opening-description-section img {
+    height: 250px;
+}
+
+.opening-description-section h2 {
+    color: #252525;
+    margin: 0;
+}
+
+.opening-description-section h2 > hr {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.opening-description-section p {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.opening-description-text span {
+    font-size: large;
+    color: black;
+}
+/*-end of main text-*/
