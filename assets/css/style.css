@@ -249,3 +249,71 @@ footer {
     margin: 2rem auto 1rem auto;
     border: 5px solid black;
 }
+
+.recipe-instructions {
+    background: linear-gradient(45deg, grey, transparent);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    width: 70%;
+    margin: 2rem auto 1rem auto;
+    border: 5px solid black;
+}
+
+.lasagne-ingrediants {
+    padding: 0 30px 0 10px;
+}
+
+.quorn-meat-img {
+    clear: left;
+    height: 200px;
+    background: url(../images/Quorn\ Meat.jpg) no-repeat;
+    background-size: contain;
+}
+
+.olive-oil {
+    clear: left;
+    height: 200px;
+    width: 100%;
+    background: url(../images/Tesco\ Olive\ Oil.jpg) no-repeat;
+    background-size: contain;
+}
+
+.pasta-sheets {
+    clear: left;
+    height: 200px;
+    width: 100%;
+    background: url(../images/lasagne-sheets.jpg) no-repeat;
+    background-size: contain;
+}
+
+.cheese-grated {
+    clear: left;
+    height: 200px;
+    width: 100%;
+    background: url(../images/cheese-grated.jpg) no-repeat;
+    background-size: contain;
+}
+
+.red-sauce {
+    clear: left;
+    height: 200px;
+    width: 100%;
+    background: url(../images/Dolmio-red-sauce.jpg) no-repeat;
+    background-size: contain;
+}
+
+.white-sauce {
+    clear: left;
+    height: 200px;
+    width: 100%;
+    background: url(../images/white-sauce.jpg) no-repeat;
+    background-size: contain;
+}
+
+
+.lasagne-instructions {
+    padding: 0 10px 0 40px;
+}
+
+/*-vegetarian section ends-*/
