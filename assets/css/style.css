@@ -57,6 +57,99 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a
 }
 
+/*-html update at smaller screens-*/
+
+@media screen and (max-width: 950px) {
+    
+    #trademark {
+        text-align: center;
+        font-size: 200%;
+    }
+
+    #trademark, #menu {
+        line-height: 40px;
+    }
+    
+    nav {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #menu {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    #menu li {
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+
+    #image-heading {
+        left: 15px;
+    }
+
+.opening-description-section {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33.33%;
+    }
+
+    .opening-description-text h2 {
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .recipe-details {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33.33%;
+    }
+
+    .recipe-instructions {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33.33%;
+    }
+
+    .lasagne-instructions {
+        margin-top: 30px;
+    }
+
+    #free-samples-section {
+        padding: 40px;
+    }
+
+    #free-sample-div {
+        padding: inherit;
+    }
+
+    #free-sample-div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #free-sample-div h2 {
+        padding: 0;
+    }
+
+    #free-sample-div p {
+        padding-top: 10px;
+    }
+
+    .vegetarian-free-sample {
+        text-align: center;
+    }
+
+}
+
 /*-image for person cooking-*/
 #cooking-border {
     height: 300px;
@@ -384,3 +477,4 @@ legend {
     color: #252525;
     box-shadow: inset 200px 0 0 0 #f9e506;
 }
+
