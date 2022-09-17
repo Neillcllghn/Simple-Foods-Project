@@ -151,3 +151,46 @@ h1, h2 {
     color: black;
 }
 /*-end of main text-*/
+
+/*-This is the free sample css-*/
+
+#free-samples-section {
+    width: 60%;
+    margin: 0 auto;
+    background: linear-gradient(45deg, grey, transparent);
+    border: 5px solid black;
+}
+
+#free-samples-section h2 {
+    text-align: center;
+}
+
+#free-samples-section p {
+    text-align: center;
+}
+
+#free-sample-div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    border: 2px solid grey;
+}
+
+.vegetarian-free-sample {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 33px 0 33px 0;
+}
+
+#free-samples-div img {
+    height: 250px;
+}
