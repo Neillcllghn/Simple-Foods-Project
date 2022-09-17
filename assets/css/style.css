@@ -239,3 +239,13 @@ footer {
         transform: scale(1.1);
     }
 }
+
+.recipe-details {
+    background: linear-gradient(45deg, grey, transparent);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 2rem auto 1rem auto;
+    border: 5px solid black;
+}
