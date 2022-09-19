@@ -414,20 +414,22 @@ footer {
 /*-Sign-up section starts-*/
 
 .sign-up-image {
-    clear: left;
     background: url(../images/woman-cooking.jpg);
     background-size: cover;
     background-position: center;
     height: 1200px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-form {
-    margin: 150px 10% 0 0;
     color: #252525;
     background-color: #fff;
     max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
     border: 5px solid black;
 }
