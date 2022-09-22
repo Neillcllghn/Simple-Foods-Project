@@ -28,10 +28,10 @@ h1, h2 {
     margin-left: 30px;
 }
 
+/*-adding in flex display 22.09.2022-*/
 #menu {
-    float: right;
-    font-size: 100%;
-    letter-spacing: 4px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #trademark, #menu {
@@ -39,14 +39,16 @@ h1, h2 {
 }
 
 #menu li {
-    float:right;
+    float: right;
     list-style-type: none;
     margin-right: 30px;
+    position: relative;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
 #menu a:hover {
@@ -56,12 +58,22 @@ h1, h2 {
 .current-menu {
     border-bottom: 1px solid #3a3a3a
 }
-
-/*-html update at smaller screens-*/
+/*-menu-bar update at smaller screens-*/
 
 @media screen and (max-width: 950px) {
     
+    /*-header updated to center the nav bar 22.09.2022-*/
+    header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    }
+    
+    /*-margin: 0 auto; added 22.09.2022-*/
     #trademark {
+        margin: 0 auto;
         text-align: center;
         font-size: 200%;
     }
@@ -71,14 +83,11 @@ h1, h2 {
     }
     
     nav {
-        margin: 0 auto;
         text-align: center;
     }
 
     #menu {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
+    float: left;
     }
 
     #menu li {
@@ -222,6 +231,7 @@ h1, h2 {
 
 .opening-description-section img {
     height: 250px;
+    margin-top: 15px;
 }
 
 .opening-description-section h2 {
@@ -309,6 +319,8 @@ footer {
     color: #3a3a3a;
 }
 
+
+
 /*-vegetarian.html section-*/
 
 #veg-lasagne {
@@ -322,7 +334,7 @@ footer {
      animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom */
+/* creates the level of zoom for hero image */
 
 @keyframes cooking-zoom {
     from {
@@ -332,6 +344,7 @@ footer {
         transform: scale(1.1);
     }
 }
+
 
 .recipe-details {
     background: linear-gradient(45deg, grey, transparent);
@@ -414,22 +427,20 @@ footer {
 /*-Sign-up section starts-*/
 
 .sign-up-image {
+    clear: left;
     background: url(../images/woman-cooking.jpg);
     background-size: cover;
     background-position: center;
     height: 1200px;
-    width: 100vw;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .sign-up-form {
+    margin: 150px 10% 0 0;
     color: #252525;
     background-color: #fff;
     max-width: 400px;
+    position: absolute;
+    left: 10%;
     padding: 30px;
     border: 5px solid black;
 }
@@ -479,4 +490,3 @@ legend {
     color: #252525;
     box-shadow: inset 200px 0 0 0 #f9e506;
 }
-
