@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap');
 
-/*-This was used in the love Running Project by CI-*/
+/*-The body and headings were inspired by the love Running Project by CI-*/
 * {
     margin: 0;
     padding: 0;
@@ -213,6 +213,7 @@ h1, h2 {
 
 .opening-description-section {
     background: linear-gradient(45deg, grey, transparent);
+    /*-Ispired display and Justify content via How to Align Image and Text Side by Side with HTML & CSS | frontendDUDE-*/
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -287,6 +288,7 @@ h1, h2 {
     height: 250px;
 }
 
+/*-The footer code was used in the love Running Project by CI-*/
 footer {
     height: 150px;
 }
@@ -404,6 +406,7 @@ footer {
     padding: 0 10px 0 40px;
 }
 
+/*-The sign-up CSS coding was inspired via the love Running Project by CI-*/
 .sign-up-image {
     clear: left;
     background: url(../images/woman-cooking.jpg);
