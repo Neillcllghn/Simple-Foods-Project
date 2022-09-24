@@ -3,6 +3,8 @@
 The Straight & Easy (S&E) is a site for food enthusiasts, beginners, and/or people who generally want to know how to cook their favourite meals in a constructive and straightforward way (Straight to the point and Easy to do!).
 Users of the website will be able to find all the information they will need to know about S&E: What we are, a free sample (Vegetarian Lasagne) to provide an insight into what we can provide, and a sign-up page to allow the user to get set up.
 
+![image](https://user-images.githubusercontent.com/109948740/192109672-31efbe6a-9bd2-49ca-a089-c5b51db406ba.png)
+
 # Features:
 
 ## Font:
