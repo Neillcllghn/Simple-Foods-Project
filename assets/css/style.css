@@ -370,6 +370,11 @@ footer {
     padding: 0 30px 0 10px;
 }
 
+/*-adjust top of margin to 0.9rem to space out the list of ingrediants 24.09.2022-*/
+.margin-top-list{
+    margin-top: 0.9rem;
+}
+
 /*-reduce height to 150px 24.09.2022-*/
 .quorn-meat-img {
     clear: left;
