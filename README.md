@@ -93,11 +93,12 @@ I confirmed that the colors and font chosen are easy to read and accessible by r
 
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-1. In the GitHub repository, navigate to the Settings tab
-2. From the source section drop-down menu, select the Master Branch
-3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+1. In the GitHub repository, navigate to the Settings tab.
+2. Click on the Pages section within the Settings tab.
+2. From the source section drop-down menu, select main.
+3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here
+The live link can be found here; https://neillcllghn.github.io/Simple-Foods-Project/
 
 # Credits:
 
@@ -110,7 +111,7 @@ The live link can be found here
     - 	This code was used to enable the text and image (and Text and Text) to be lined up together side by side and was initiated in:
         - The main section (We love to cook) in the idex.html.
         - The recipe details in the free-sample.html.
-         - The Ingredients & Instructions section in the  free-sample.html.
+        - The Ingredients & Instructions section in the  free-sample.html.
 
 1. The icons in the footer in all pages of the website and the Free recipe section in the index.html were taken from [Font Awesome:](https://fontawesome.com/)
 
