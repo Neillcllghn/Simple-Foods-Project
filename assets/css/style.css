@@ -370,16 +370,18 @@ footer {
     padding: 0 30px 0 10px;
 }
 
+/*-reduce height to 150px 24.09.2022-*/
 .quorn-meat-img {
     clear: left;
-    height: 200px;
+    height: 150px;
     background: url(../images/Quorn\ Meat.jpg) no-repeat;
     background-size: contain;
 }
 
+/*-reduce height to 150px 24.09.2022-*/
 .olive-oil {
     clear: left;
-    height: 200px;
+    height: 150px;
     width: 100%;
     background: url(../images/Tesco\ Olive\ Oil.jpg) no-repeat;
     background-size: contain;
