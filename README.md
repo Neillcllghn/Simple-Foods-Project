@@ -47,6 +47,7 @@ This page will allow the user to get signed up to S&E and begin receiving the co
 
 ## Features left to implement:
 - Enable a payment option that can be applied to the sign-up page.
+- Provide a link via javascript to allow the information filled in through the sign-up page to be sent and stored.
 - Provide a second and/or third free sample that would be revolved around meat-eaters and vegans.
 
 
