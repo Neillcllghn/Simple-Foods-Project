@@ -44,6 +44,9 @@ This page will allow the user to get signed up to S&E and begin receiving the co
 
 ![image](https://user-images.githubusercontent.com/109948740/192102368-1151ad68-acd0-4aee-9eb7-168ff70529ec.png)
 
+## The Footer
+The footer section includes links to the relevant social media sites. The links will open in a new tab to allow easy navigation for the user.
+![image](https://user-images.githubusercontent.com/109948740/192137456-fdb0be68-11e2-4c6c-a2ee-879d20fe6395.png)
 
 ## Features left to implement:
 - Enable a payment option that can be applied to the sign-up page.
